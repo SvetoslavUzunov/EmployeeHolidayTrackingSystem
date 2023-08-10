@@ -28,7 +28,8 @@ BackEnd: </br>
 - Handle errors functionality
 - JWT Token
 - Roles
-- Unit Tests </br>
+- Unit Tests
+- Moq Framework </br>
 
 FrontEnd: </br>
 - React Hooks
