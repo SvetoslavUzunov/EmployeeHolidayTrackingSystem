@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yBryaS49PNPlOU+XmxQm+AnR+KJViBS2kiin2DwK2YE=",
+  "Source": "EmployeeHolidayTrackingSystem.Api",
+  "BasePath": "_content/EmployeeHolidayTrackingSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

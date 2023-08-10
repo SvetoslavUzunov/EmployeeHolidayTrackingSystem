@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Api", "EmployeeHolidayTrackingSystem.API\EmployeeHolidayTrackingSystem.Api.csproj", "{756AC060-FF23-44E5-A3D2-D03BC7E76B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Data", "EmployeeHolidayTrackingSystem.Data\EmployeeHolidayTrackingSystem.Data.csproj", "{38B2ECEB-3F37-4112-A30B-D0E54AA16FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Core", "EmployeeHolidayTrackingSystem.Core\EmployeeHolidayTrackingSystem.Core.csproj", "{810E2054-E3AA-4E21-A7B4-A8FC4E3656B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Repository", "EmployeeHolidayTrackingSystem.Repository\EmployeeHolidayTrackingSystem.Repository.csproj", "{F55D50BA-8FF3-49ED-8E94-88A4704CDE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Service", "EmployeeHolidayTrackingSystem.Service\EmployeeHolidayTrackingSystem.Service.csproj", "{824D817F-7246-4571-8C0B-F22DD7BB3079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayTrackingSystem.Test", "EmployeeHolidayTrackingSystem.Test\EmployeeHolidayTrackingSystem.Test.csproj", "{E7C6D301-7B70-4ABC-803B-157B07964D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756AC060-FF23-44E5-A3D2-D03BC7E76B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756AC060-FF23-44E5-A3D2-D03BC7E76B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756AC060-FF23-44E5-A3D2-D03BC7E76B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756AC060-FF23-44E5-A3D2-D03BC7E76B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B2ECEB-3F37-4112-A30B-D0E54AA16FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B2ECEB-3F37-4112-A30B-D0E54AA16FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B2ECEB-3F37-4112-A30B-D0E54AA16FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B2ECEB-3F37-4112-A30B-D0E54AA16FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810E2054-E3AA-4E21-A7B4-A8FC4E3656B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810E2054-E3AA-4E21-A7B4-A8FC4E3656B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810E2054-E3AA-4E21-A7B4-A8FC4E3656B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810E2054-E3AA-4E21-A7B4-A8FC4E3656B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55D50BA-8FF3-49ED-8E94-88A4704CDE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55D50BA-8FF3-49ED-8E94-88A4704CDE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55D50BA-8FF3-49ED-8E94-88A4704CDE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55D50BA-8FF3-49ED-8E94-88A4704CDE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824D817F-7246-4571-8C0B-F22DD7BB3079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824D817F-7246-4571-8C0B-F22DD7BB3079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824D817F-7246-4571-8C0B-F22DD7BB3079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824D817F-7246-4571-8C0B-F22DD7BB3079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C6D301-7B70-4ABC-803B-157B07964D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C6D301-7B70-4ABC-803B-157B07964D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C6D301-7B70-4ABC-803B-157B07964D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C6D301-7B70-4ABC-803B-157B07964D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289958D3-D3F7-455A-9A85-734A4B82AF09}
+	EndGlobalSection
+EndGlobal

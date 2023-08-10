@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.API\\EmployeeHolidayTrackingSystem.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.API\\EmployeeHolidayTrackingSystem.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.API\\EmployeeHolidayTrackingSystem.Api.csproj",
+        "projectName": "EmployeeHolidayTrackingSystem.Api",
+        "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.API\\EmployeeHolidayTrackingSystem.Api.csproj",
+        "packagesPath": "C:\\Users\\SvetoslavUzunov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SvetoslavUzunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/flatrocktech/_packaging/FlatRockTech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj"
+              },
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj"
+              },
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\EmployeeHolidayTrackingSystem.Service.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\EmployeeHolidayTrackingSystem.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj",
+        "projectName": "EmployeeHolidayTrackingSystem.Core",
+        "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj",
+        "packagesPath": "C:\\Users\\SvetoslavUzunov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SvetoslavUzunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/flatrocktech/_packaging/FlatRockTech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj",
+        "projectName": "EmployeeHolidayTrackingSystem.Data",
+        "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\SvetoslavUzunov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SvetoslavUzunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/flatrocktech/_packaging/FlatRockTech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\EmployeeHolidayTrackingSystem.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\EmployeeHolidayTrackingSystem.Repository.csproj",
+        "projectName": "EmployeeHolidayTrackingSystem.Repository",
+        "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\EmployeeHolidayTrackingSystem.Repository.csproj",
+        "packagesPath": "C:\\Users\\SvetoslavUzunov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SvetoslavUzunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/flatrocktech/_packaging/FlatRockTech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj"
+              },
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Data\\EmployeeHolidayTrackingSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\EmployeeHolidayTrackingSystem.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\EmployeeHolidayTrackingSystem.Service.csproj",
+        "projectName": "EmployeeHolidayTrackingSystem.Service",
+        "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\EmployeeHolidayTrackingSystem.Service.csproj",
+        "packagesPath": "C:\\Users\\SvetoslavUzunov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SvetoslavUzunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/flatrocktech/_packaging/FlatRockTech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Core\\EmployeeHolidayTrackingSystem.Core.csproj"
+              },
+              "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\EmployeeHolidayTrackingSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\SvetoslavUzunov\\Documents\\GitHub\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem\\EmployeeHolidayTrackingSystem.Repository\\EmployeeHolidayTrackingSystem.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
